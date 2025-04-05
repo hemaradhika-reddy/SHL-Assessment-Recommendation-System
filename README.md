@@ -15,14 +15,10 @@ A web-based tool to recommend SHL assessments based on job queries or descriptio
   - Evaluation metrics (Recall@3, MAP@3) tested internally.
 
 ## Live Links
-1. **Demo**: [Streamlit URL] (e.g., `https://yourusername-shl-recommendation-system.streamlit.app`)
-2. **API Endpoint**: [Vercel URL]/recommend (e.g., `https://shl-assessment-recommendation-system-jvcxifgub.vercel.app/recommend`)
-3. **Code**: [GitHub URL] (e.g., `https://github.com/yourusername/shl-recommendation-system`)
+1. **Demo**: [Streamlit URL] (e.g., `https://shl-assessment-recommendation-system-6i5dinxbyhgkhetpygk38p.streamlit.app/`)
+2. **API Endpoint**: [Vercel URL]/recommend (e.g., `https://shl-assessment-recommendation-system-jvcxifgub.vercel.app/recommend?query=Java developers, 40 minutes`)
+3. **Code**: [GitHub URL] (e.g., `https://github.com/hemaradhika-reddy/SHL-Assessment-Recommendation-System`)
 
-## How It Works
-1. **Input**: Accepts a natural language query (e.g., "Python and SQL, 60 minutes").
-2. **Processing**: Parses skills and duration using regex (or LLM if enabled), filters and ranks assessments from `shl_assessments.csv`.
-3. **Output**: Returns a list of relevant assessments in a table (demo) or JSON (API).
 
 ## Installation & Local Setup
 ### Prerequisites
