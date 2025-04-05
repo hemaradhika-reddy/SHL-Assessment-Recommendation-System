@@ -1,9 +1,16 @@
 from fastapi import FastAPI
-import pandas as pd
+import csv
 from recommend import recommend_assessments
 
 app = FastAPI()
-df = pd.read_csv("shl_assessments.csv")
+
+# Load CSV manually
+df = []
+with open("shl_assessments.csv", "r") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        row["Duration (min)"] = int(row["Duration (min)"])  # Convert duration to int
+        df.append(row)
 
 @app.get("/recommend")
 async def get_recommendations(query: str):
