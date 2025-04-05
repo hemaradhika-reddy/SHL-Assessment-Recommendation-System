@@ -11,7 +11,6 @@ A web-based tool to recommend SHL assessments based on job queries or descriptio
 - **Extras**:
   - Expanded dataset (10+ assessments) for better coverage.
   - Optional LLM integration (e.g., Gemini API) for advanced query parsing.
-  - Tracing logs for debugging query processing.
   - Evaluation metrics (Recall@3, MAP@3) tested internally.
 
 ## Live Links
@@ -24,4 +23,34 @@ A web-based tool to recommend SHL assessments based on job queries or descriptio
 ### Prerequisites
 - Python 3.8+
 - Git
+### Steps
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/hemaradhika/shl-recommendation-system.git
+   cd shl-recommendation-system
+   
+2.Set Up Virtual Environment:
+   ``` python -m venv venv
+source venv/bin/activate ```
+
+3.Install Dependencies
+pip install -r requirements.txt
+
+4.Run the demo
+streamlit run app.py
+
+5.run the api
+uvicorn api:app --reload
+
+shl-recommendation-system/
+├── shl_assessments.csv  # Assessment dataset
+├── recommend.py         # Core recommendation logic with tracing
+├── api.py              # FastAPI endpoint
+├── app.py              # Streamlit demo
+├── requirements.txt    # Dependencies
+├── vercel.json         # Vercel config
+└── README.md           # This file
+
+
+
 
