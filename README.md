@@ -13,6 +13,8 @@ A web-based tool to recommend SHL assessments based on job queries or descriptio
   - Optional LLM integration (e.g., Gemini API) for advanced query parsing.
   - Evaluation metrics (Recall@3, MAP@3) tested internally.
 
+![This is an image](https://github.com/hemaradhika-reddy/SHL-Assessment-Recommendation-System/blob/main/Process%20Flow.png)
+
 ## Live Links
 1. **Demo**: [Streamlit URL] (e.g., `https://shl-assessment-recommendation-system-6i5dinxbyhgkhetpygk38p.streamlit.app/`)
 2. **API Endpoint**: [Vercel URL]/recommend (e.g., `https://shl-assessment-recommendation-system-jvcxifgub.vercel.app/recommend?query=Java developers, 40 minutes`)
