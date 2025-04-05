@@ -1,0 +1,7 @@
+Assessment Name,URL,Remote Testing,Adaptive/IRT,Duration (min),Test Type
+Java Coding,https://www.shl.com/java-coding,Yes,Yes,35,Technical
+Cognitive Ability,https://www.shl.com/cognitive-ability,Yes,Yes,30,Cognitive
+Personality Profile,https://www.shl.com/personality-profile,Yes,No,25,Personality
+Python Coding,https://www.shl.com/python-coding,Yes,Yes,40,Technical
+SQL Skills,https://www.shl.com/sql-skills,Yes,No,20,Technical
+Team Collaboration,https://www.shl.com/team-collaboration,Yes,No,15,Behavioral
